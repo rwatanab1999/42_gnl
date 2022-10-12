@@ -6,7 +6,7 @@
 /*   By: rwatanab <wtnbrn1999@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 00:55:11 by rwatanab          #+#    #+#             */
-/*   Updated: 2022/10/12 20:40:19 by rwatanab         ###   ########.fr       */
+/*   Updated: 2022/10/13 01:09:09 by rwatanab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@
 
 char	*get_next_line(int fd);
 size_t	gnl_strlen(const char *s);
-size_t	gnl_strlcpy(char *dst, const char *src, size_t size);
-size_t	gnl_strlcat(char *dst, const char *src, size_t dstsize);
 char	*gnl_strjoin(char const *s1, char const *s2);
 char	*gnl_substr(char const *s, size_t start, size_t len);
 
